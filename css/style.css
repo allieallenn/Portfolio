@@ -4,8 +4,13 @@
 --accent-color: #f2f9f1;
 --primary-font-family: sans-serif;
 }
-
-img {
+div {
+    display: block;
+  }
+  body {
+    margin: 60px auto;
+  }
+.weather .basics .portfolio {
     display: flex;
     max-width: 400px !important;
     max-height: 400px;
@@ -16,6 +21,7 @@ h2 {
 }
 h1 {
     font-size: 96px;
+    text-align: center;
 }
 h4 {
     text-align: center;
@@ -39,7 +45,18 @@ footer {
     font-size: 30px;
     justify-content: center;
 }
-
+.description {
+    display: flex;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    max-width: 800px;
+    padding: 20px;
+}
+#certificate {
+    display: flex;
+    max-width: 450px !important;
+    max-height: 310px;
+}
 @media (max-width:576px) {
 img {
     margin-bottom: 50px;
