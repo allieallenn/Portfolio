@@ -32,6 +32,9 @@ div {
         max-width: 400px !important;
         max-height: 400px;
     }
+    .tag {
+        font-size: 15px;
+    }
 .greeting {
     margin-top: 30px;
 }
