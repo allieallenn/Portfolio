@@ -55,11 +55,6 @@ footer {
     max-width: 800px;
     padding: 20px;
 }
-#certificate {
-    display: flex;
-    max-width: 450px !important;
-    max-height: 310px;
-}
 #work-row-one {
     margin-bottom: 30px;
 }
